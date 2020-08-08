@@ -1,4 +1,3 @@
-import "../components/news.scss"
 import "../components/layout.scss"
 import "../components/layout.css"
 
