@@ -4,7 +4,9 @@
     padding: 15px;
     display: flex;
   }
-
+.link{
+  float: right
+}
   .left-column {
     width: 65%;
     position: relative;
