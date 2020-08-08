@@ -234,7 +234,7 @@ export default class News extends React.Component {
     }
 
     getData = () => {
-        const url = 'https://newsapi.org/v2/top-headlines?' +
+        const url = 'http://newsapi.org/v2/top-headlines?' +
             `country=${this.state.selectedCountry}&` +
             'apiKey=8228aa37821544f8978abacb2d09207c'
         var req = new Request(url);

@@ -24,7 +24,7 @@ export default class FirstPost extends React.Component {
     this.setState({
       id
     }, () => {
-      const url = 'https://newsapi.org/v2/top-headlines?' +
+      const url = 'http://newsapi.org/v2/top-headlines?' +
         `country=${country}&` +
         'apiKey=8228aa37821544f8978abacb2d09207c'
       var req = new Request(url);
